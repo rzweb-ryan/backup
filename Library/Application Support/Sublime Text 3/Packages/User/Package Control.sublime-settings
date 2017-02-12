@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"GitSavvy",
+		"Material Theme",
+		"Materialize-Appbar",
+		"Package Control",
+		"SideBarEnhancements",
+		"Unit Test File Toggler"
+	]
+}
