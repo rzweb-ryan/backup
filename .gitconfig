@@ -1,0 +1,16 @@
+[user]
+	name = rzweb-ryan
+	email = rzweb.us@gmail.com
+[core]
+	editor = vim
+
+[alias]
+	st = status
+	ci = commit -a -v
+	br = branch
+
+  throw = reset --hard HEAD
+  throwh = reset --hard HEAD~
+
+[push]
+	default = simple

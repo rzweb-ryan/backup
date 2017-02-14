@@ -1,10 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-#sublime edit
-alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-alias nano="subl"
-export EDITOR="subl"
+alias ga=git add -A
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/RZ/.oh-my-zsh
@@ -89,5 +86,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#unshow username
-DEFAULT_USER="RZ"
+plugins=(zsh-syntax-highlighting)
+DEFAULT_USER=RZ
+
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+alias nano="subl"
+export EDITOR="subl"
